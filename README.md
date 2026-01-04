@@ -1,6 +1,6 @@
 Our code is implemented within Fairseq and has already been integrated into Fairseq.
 Preprocess:
-python cmot/preprocess/prep_mustc_data_joint.py \
+python preprocess/prep_mustc_data_joint.py \
   --tgt-lang ${LANG} --data-root ${MUSTC_ROOT} \
   --task st --yaml-filename config_st_raw_joint.yaml \
   --vocab-type unigram --vocab-size 10000 \
